@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Checkpoint</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                $('ul').toggleClass('active');
+                $(this).find('i').toggleClass('fa-times'); //nova parte
+            })
+        })
+    </script>
+
+</head>
+
+
+
+<body>
+    <div class="topo">
+        <header>
+
+
+            <div class="logo">
+                <a href="../Páginaprincipal/main-page.html">
+                    <img class="logo-img" src="Imagens/logotipo.png" alt="logotipo">
+                </a>
+            </div>
+
+            <div class="toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <!-- <a href id="toggle"><span></span></a> -->
+
+            <nav class="menu">
+
+                <a class="logo-escrito" href="../Páginaprincipal/main-page.html">Check Point</a>
+
+                <ul class="pages">
+
+                    <li>
+                        <a href="../Páginaprincipal/main-page.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../História/historia-page.html">História</a>
+                    </li>
+                    <li>
+                        <a href="../Faq/faq-page.html">Faq</a>
+                    </li>
+                    <li>
+                        <a href="../Contato/contato-page.html">Contato</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+    </div>
+
+    <div class="banner">
+
+        <div class="filtro">
+            <h1>Gerencie sua equipe, prazo e metas.</h1>
+            <picture class="funcionalidades">
+                <source media="(max-width: 480px)" srcset="Imagens/funcionalidades.png">
+                <!-- <source media="(min-width: 465px)" srcset="Ativo 5.png"> -->
+
+                <img class="funcionalidades-img" src="../Páginaprincipal/Imagens/funcionalidadescirculo.png" alt="funcionalidades">
+            </picture>
+            <!-- <img src="Imagens/funcionalidades.png" alt="funcionalidades"> -->
+        </div>
+
+    </div>
+    <main>
+
+        <section class="planos">
+
+            <H2>Planos</H2>
+
+            <div class="card1 sombra">
+                <img src="Imagens/free.png" alt="free tag">
+                <p id="free">Gratuito</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error explicabo ullam consequatur.</li>
+                </ul>
+                <p class="frase">Com até 5 equipes!</p>
+                <button class="btn">Começe agora!</button>
+            </div>
+
+            <div class="card2 sombra">
+                <p id="normal">Normal</p>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur.</li>
+                </ul>
+                <p class="frase">Suporte em horário comercial!</p>
+                <button class="btn-preco">
+                    <span>R$
+                        <b>59</b>,90</span>
+                </button>
+            </div>
+
+            <div class="card3 sombra">
+                <p id="premium"> Premium</p>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum adipisicing elit. Neque laboriosam accusamus pariatur.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur!</li>
+                </ul>
+                <p class="frase">Mais de 5 equipes!
+                    <br> Suporte 24 horas!</p>
+                <button class="btn-preco">
+                    <span>R$
+                        <b>99</b>,90</span>
+                </button>
+            </div>
+
+        </section>
+
+
+
+        <section class="vantagens">
+
+            <h2>Vantagens e Facilidades</h2>
+
+            <div class="vantagem-item">
+                <img src="Imagens/compartilhar.png" alt="compartilhar" />
+                <p>- Compartilhe sua atividade com a equipe Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="vantagem-item">
+                <img src="Imagens/compatibilidade.png" alt="compatibilidade" />
+                <p>- Web e Mobile Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+            </div>
+            <div class="vantagem-item">
+                <img src="Imagens/shield.png" alt="escudo" />
+                <p>- Segurança com certificações de várias entidades Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
+            <div class="vantagem-item">
+                <img src="Imagens/lucro.png" alt="lucro" />
+                <p>- Aumento dos ganhos Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                    tincidunt.
+                </p>
+            </div>
+            <div class="vantagem-item">
+                <img src="Imagens/lampada.png" alt="lampada" />
+                <p>- Soluções criativas Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =============================================================CHAT============================================================= -->
+
+    <!-- http://jsfiddle.net/R3oLoN/PDVLC/2/ -->
+
+    <div class="chat">
+            
+
+        <div class="chat-header displayflex">
+            <div class="chat-online">Chat Online</div>
+        </div>
+
+
+        <div class="chat-fundo displayflex">
+
+
+            <DIV class="recebido">
+
+                <div class="chat-rec ">
+                    <p class="chat-msg">Olá, como posso ajudar?</p>
+                </div>
+
+            </DIV>
+
+            <div class="enviado">
+
+                <div class="chat-env">
+                    <p class="chat-msg">...</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="chat-footer displayflex">
+            <textarea maxlength="80"></textarea>
+            <button>Enviar</button>
+        </div>
+
+    </div>
+
+    <!-- =============================================================FIM-CHAT============================================================= -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+        <a class="logotipo-footer" href="../Páginaprincipal/main-page.html">
+            <img src="Imagens/logotipofooter.png" alt="logotipo rodapé"> </a>
+
+        <div class="footer-item1">
+
+            <h2>Mapa do site</h2>
+
+            <ul>
+                <li>
+                    <a href="../História/historia-page.html">História</a>
+                </li>
+                <li>
+                    <a href="../Faq/faq-page.html">Faq</a>
+                </li>
+                <li>
+                    <a href="../Contato/contato-page.html">Contato</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="footer-item2">
+
+            <h2>Quem Somos?</h2>
+
+            <ul>
+                <li>Origem</li>
+                <li>Carreiras</li>
+                <li>Localização</li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-item3">
+
+            <h2>
+                <a href="../Contato/contato-page.html">Suporte</a>
+            </h2>
+
+            <ul>
+                <li>
+                    <a href="../Contato/contato-page.html">Telefone</a>
+                </li>
+                <li>
+                    <a href="../Contato/contato-page.html">E-mails</a>
+                </li>
+                <li>
+                    <a href="../Contato/contato-page.html">Deixe sua mensagem</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <img class="redes-sociais" src="Imagens/redessociais.png" alt="redes sociais">
+
+        <div class="footer-final">
+            <p>© 2018 Carfel. Todos os direitos reservados </p>
+            <p class="bandeirinha">Alameda Barão de Limeira, 539 - Santa Cecilia, São Paulo - SP, 01202-001</p>
+        </div>
+
+    </footer>
+
+
+
+
+
+</body>
+
+
+
+
+<!-- <script>
+
+var theToggle = document.getElementById('toggle');
+
+// based on Todd Motto functions
+// https://toddmotto.com/labs/reusable-js/
+
+// hasClass
+function hasClass(elem, className) {
+	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+}
+// addClass
+function addClass(elem, className) {
+    if (!hasClass(elem, className)) {
+    	elem.className += ' ' + className;
+    }
+}
+// removeClass
+function removeClass(elem, className) {
+	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+	if (hasClass(elem, className)) {
+        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+            newClass = newClass.replace(' ' + className + ' ', ' ');
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+}
+// toggleClass
+function toggleClass(elem, className) {
+	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+    if (hasClass(elem, className)) {
+        while (newClass.indexOf(" " + className + " ") >= 0 ) {
+            newClass = newClass.replace( " " + className + " " , " " );
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    } else {
+        elem.className += ' ' + className;
+    }
+}
+
+theToggle.onclick = function() {
+   toggleClass(this, 'on');
+   return false;
+}
+</script> -->
+
+</html>
